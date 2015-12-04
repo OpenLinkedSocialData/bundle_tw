@@ -1,0 +1,22 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix po: <http://purl.org/socialparticipation/po/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tw: <http://purl.org/socialparticipation/tw/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://purl.org/socialparticipation/po/Snapshot#SnapDetremura_tw> a po:Snapshot ;
+    rdfs:label "Snapshot SnapDetremura_tw" ;
+    po:acquiredThrough "Twitter search engine"^^xsd:string ;
+    po:availableAt "https://github.com/ttm/SnapDetremura_tw"^^xsd:string ;
+    po:createdAt "2015-12-03"^^xsd:string ;
+    po:discorveryRDFFile "https://raw.githubusercontent.com/ttm/SnapDetremura_tw/master/rdf/SnapDetremura_twMeta.owl"^^xsd:string ;
+    po:discoveryTTLFile "https://raw.githubusercontent.com/ttm/SnapDetremura_tw/master/rdf/SnapDetremura_twMeta.ttl"^^xsd:string ;
+    po:donatedBy "labMacambira.sf.net"^^xsd:string ;
+    po:originalFile "https://raw.githubusercontent.com/ttm/SnapDetremura_tw/master/base/"^^xsd:string ;
+    po:rdfFile "https://raw.githubusercontent.com/ttm/SnapDetremura_tw/master/rdf/SnapDetremura_twTranslate.owl"^^xsd:string ;
+    po:triplifiedIn "2015-12-04T00:26:17.627281"^^xsd:datetime ;
+    po:ttlFile "https://raw.githubusercontent.com/ttm/SnapDetremura_tw/master/rdf/SnapDetremura_twTranslate.ttl"^^xsd:string ;
+    rdfs:comment "The Twitter messages related to tweets with the #SnapDetremura_tw hashtag"^^xsd:string .
+
